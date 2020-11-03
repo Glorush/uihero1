@@ -1,0 +1,1049 @@
+
+html{
+    font-size:62.5%;
+}
+body{
+    font-family: 'Gotham-Book';
+    position: relative;
+/*  font-family: 'GothamMedium'; 
+
+    font-family: 'Gotham-Bold';
+
+    font-family: 'CaeciliaLTStd-Roman';
+
+    font-family: 'CaeciliaLTStd-Bold';
+
+*/
+    font-size:20px;
+    font-size:20px;
+    font-size:20px;
+    font-size:2rem;
+    overflow-x: hidden;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+p{
+    margin:0;
+}
+h1, h2, h3, h4, h5, h6{
+    margin:0;
+}
+a{
+    text-decoration:none;
+}
+ h2 {
+    font-size:40px;
+    font-size:40px;
+    font-size:40px;
+    font-size: 4rem;
+    color: #444e5d;
+    font-family: 'Gotham-Bold';
+    font-weight: 700;
+}
+.section-padding-1{
+    padding:120px 0;
+    padding:120px 0;
+    padding:120px 0;
+    padding:12rem 0;
+}
+.section-padding-2{
+    padding:80px 0;
+    padding:80px 0;
+    padding:80px 0;
+    padding:8rem 0;
+}
+.btn-sty-r {
+    padding:10px 30px;
+    padding:10px 30px;
+    padding:10px 30px;
+    padding: 1rem 3rem;
+    display: inline-block;
+    background: #FF4B5A;
+    border-radius: 3px;
+    color: #fff !important;
+    -webkit-transition:.4s;
+    transition:.4s;
+    border-bottom: 4px solid #E23D4B;
+}
+.btn-sty-g{
+    padding:10px 30px;
+    padding:10px 30px;
+    padding:10px 30px;
+    padding: 1rem 3rem;
+    display: inline-block;
+    background: #1FAB5A;
+    border-radius: 3px;
+    color: #fff !important;
+    -webkit-transition:.4s;
+    transition:.4s;
+    border-bottom: 4px solid #188947;
+}
+
+
+.btn-sty-r:hover,
+.btn-sty-g:hover{
+    opacity: .6;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom:50px;
+    margin-bottom:50px;
+    margin-bottom:50px;
+    margin-bottom: 5rem;
+}
+.section-title h3 {
+    color: #444e5d;
+    font-size:38px;
+    font-size:38px;
+    font-size:38px;
+    font-size: 3.8rem;
+    font-family: 'Gotham-Bold';
+    font-weight: 700;
+
+}
+.section-title p {
+    color: #606e80;
+    margin:10px 0;
+    margin:10px 0;
+    margin:10px 0;
+    margin: 1rem 0;
+    font-size:22px;
+    font-size:22px;
+    font-size:22px;
+    font-size: 2.2rem;
+}
+/*=======================================================
+        ============  Header area css  ============
+=========================================================*/
+.header-area{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: transparent;
+    padding:50px 0;
+    padding:50px 0;
+    padding:50px 0;
+    padding: 5rem 0;
+    z-index: 2;
+    -webkit-transition:.4s;
+    transition: .4s;
+}
+.logo{
+
+}
+.logo a{
+    display: inline-block;
+}
+
+.menu ul{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+.menu ul li a {
+    padding: 8px 15px;
+    padding:5px 15px;
+    padding:5px 15px;
+    padding: .5rem 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 25px;
+    display: inline-block;
+    -webkit-transition: .3s;
+    transition: .3s;
+    font-size: 18px;
+}
+.menu ul li a:hover {
+    background: #FF4B5A;
+    border-radius: 25px;
+}
+.menu ul li {
+    margin-right:20px;
+    margin-right:20px;
+    margin-right:20px;
+    margin-right: 2rem;
+}
+.menu ul li:last-child{
+    margin-right: unset;
+}
+.sticky {
+    position: fixed;
+    background: #b7b5b5;
+    padding:15px;
+    padding:15px;
+    padding:15px;
+    padding: 1.5rem;
+    z-index: 26;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    border-radius: 25px;
+    background: #FF4B5A;
+}
+.menu ul li a.active{
+}
+/*=======================================================
+        ============  Banner area css  ============
+=========================================================*/
+.banner-area{
+    background: url(../images/banner-bg.jpg) no-repeat scroll 0 0 / cover;
+    padding:200px 0 40px;
+    padding:200px 0 40px;
+    padding:200px 0 40px;
+    padding:20rem 0 4rem;
+}
+.main-banner {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 33.33% auto;
+        grid-template-columns: 33.33% auto;
+}
+.banner-img-div{
+    width:100%;
+}
+.banner-content {
+    padding:110px 0 0 80px;
+    padding:110px 0 0 80px;
+    padding:110px 0 0 80px;
+    padding: 11rem 0 0 8rem;
+}
+.banner-content h1 {
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Gotham-Book';
+}
+.banner-content span{
+    color:#1FAB5A;
+    font-family: 'GothamMedium';
+}
+.banner-content p {
+    color: #fff;
+    line-height: 35px;
+}
+.banner-content ul {
+    margin:30px 0;
+    margin:30px 0;
+    margin:30px 0;
+    margin: 3rem 0;
+}
+.banner-content ul li span {
+    width: 20px;
+    height: 20px;
+    background: #244C64;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right:10px;
+    margin-right:10px;
+    margin-right:10px;
+    margin-right: 1rem;
+    position: relative;
+}
+.banner-content ul li span:after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: #FF4B5A;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 3px;
+}
+.banner-content ul li {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom:10px;
+    margin-bottom:10px;
+    margin-bottom:10px;
+    margin-bottom: 1rem;
+}
+.banner-content ul li a{
+    color:#fff;
+}
+.banner-img {
+    width: 75%;
+    height: auto;
+    float: right;
+}
+.banner-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+/*owl-carousel nav & dots*/
+.banner-carousel.owl-theme .owl-nav {
+    left: 0;
+    margin-top: 0;
+    position: absolute;
+    top: 35.5%;
+    width: 100%;
+    color: #fff;
+}
+.banner-carousel.owl-theme .owl-nav .owl-prev{
+    left:0;
+    position: absolute;
+    outline: unset;
+}
+.banner-carousel.owl-theme .owl-nav .owl-next{
+    right:0;
+    position: absolute;
+    outline: unset;
+}
+.banner-carousel.owl-theme .owl-nav span {
+    font-size:45px;
+    font-size:45px;
+    font-size:45px;
+    font-size: 4.5rem;
+    width:50px;
+    width:50px;
+    width:50px;
+    width: 5rem;
+    height:40px;
+    height:40px;
+    height:40px;
+    height: 4rem;
+    display: inline-block;
+    border: 1px solid #ddd;
+    line-height:28px;
+    line-height:28px;
+    line-height:28px;
+    line-height: 2.8rem;
+    text-align: center;
+}
+.banner-carousel.owl-theme .owl-nav span:hover{
+    background: #ddd;
+    color:#FF4B5A;
+}
+.banner-carousel.owl-theme .owl-dots .owl-dot.active span,
+.banner-carousel.owl-theme .owl-dots .owl-dot:hover span {
+    background: #FF4B5A;
+}
+.banner-carousel.owl-theme .owl-dots .owl-dot{
+    outline: unset;
+}
+
+/*=======================================================
+        ============  About area css  ============
+=========================================================*/
+.about-area,
+.studio-area{
+    background:#F2F2F2;
+}
+.about-area.section-padding-1{
+    padding-bottom:40px;
+    padding-bottom:40px;
+    padding-bottom:40px;
+    padding-bottom: 4rem ;
+}
+.studio-area.section-padding-1{
+    padding-top:40px;
+    padding-top:40px;
+    padding-top:40px;
+    padding-top:4rem;
+}
+.aobut-img {
+    width: 100%;
+}
+.aobut-img img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.about-me h2 {
+    font-size:40px;
+    font-size:40px;
+    font-size:40px;
+    font-size: 4rem;
+    color: #444e5d;
+    font-family: 'Gotham-Bold';
+    font-weight: 700;
+}
+.about-me a {
+    color: #FF4B5A;
+    margin:20px 0 5px;
+    margin:20px 0 5px;
+    margin:20px 0 5px;
+    margin: 2rem 0 .5rem;
+    display: inline-block;
+}
+.about-me p {
+    color: #4d5866;
+    line-height: 33px;
+    max-width: 85%;
+    width: 100%;
+}
+.about-bottom{
+    padding-top:80px;
+    padding-top:80px;
+    padding-top:80px;
+    padding-top: 8rem;
+}
+.vimeo-video-content a {
+    color: #1FAB5A;
+    margin:20px 0 5px;
+    margin:20px 0 5px;
+    margin:20px 0 5px;
+    margin: 2rem 0 .5rem;
+    display: inline-block;
+}
+.vimeo-video-content p {
+    color: #4d5866;
+    line-height: 33px;
+    max-width: 85%;
+    width: 100%;
+}
+
+.vimeo-video {
+    width: 100%;
+}
+.vimeo-video iframe {
+    width: 100%;
+    height:280px;
+    height:280px;
+    height: 28rem;
+}
+
+/*=======================================================
+        ============  about frofile area css  ============
+=========================================================*/
+.about-profile-area{
+    background: #EDEBEB;
+}
+.my-profile{
+    text-align: center;
+}
+.my-profile i {
+    font-size:40px;
+    font-size:40px;
+    font-size:40px;
+    font-size: 4rem;
+    color: #66837E;
+    margin-bottom:30px;
+    margin-bottom:30px;
+    margin-bottom:30px;
+    margin-bottom: 3rem;
+}
+.my-profile h4 {
+    font-size:34px;
+    font-size:34px;
+    font-size:34px;
+    font-size: 3.4rem;
+    color: #746f6f;
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+}
+.my-profile h4 {
+    font-size:30px;
+    font-size:30px;
+    font-size:30px;
+    font-size: 3rem;
+    color: #746f6f;
+    max-width: 65%;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'CaeciliaLTStd-Roman';
+}
+.plorile-detials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top:50px;
+    margin-top:50px;
+    margin-top:50px;
+    margin-top: 5rem;
+}
+.profile-content {
+    margin-left:40px;
+    margin-left:40px;
+    margin-left:40px;
+    margin-left: 4rem;
+}
+.profile-content h4 {
+    max-width: unset;
+}
+.profile-content p {
+    color: #6a6565;
+}
+.profile-content p a{
+    color: #1FAB5A;
+}
+/*================================================================
+        ============  Mobile description area css  ============
+==================================================================*/
+.mobile-description-area{
+    background: #F2F2F2;
+}
+.mobile-des-title p {
+    max-width: 65%;
+    color: #5c6877;
+    margin-top:5px;
+    margin-top:5px;
+    margin-top:5px;
+    margin-top: .5rem;
+}
+.mobile-des-title p:last-child {
+    margin: 15px 0 40px;
+    margin:15px 0 30px;
+    margin:15px 0 30px;
+    margin: 1.5rem 0 3rem;
+    padding-bottom:30px;
+    padding-bottom:30px;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #B7B7B7;
+}
+.mobile-description ul {
+    margin-bottom:30px;
+    margin-bottom:30px;
+    margin-bottom:30px;
+    margin-bottom: 3rem;
+}
+.mobile-description ul li {
+    color: #4c5662;
+    line-height: 45px;
+}
+.mobile-description ul li img {
+    margin-right:15px;
+    margin-right:15px;
+    margin-right:15px;
+    margin-right: 1.5rem;
+    height: 22px;
+}
+.mobile-description h3 {
+    font-size:38px;
+    font-size:38px;
+    font-size:38px;
+    font-size: 3.8rem;
+    color: #323a45;
+    margin-bottom:25px;
+    margin-bottom:25px;
+    margin-bottom:25px;
+    margin-bottom: 2.5rem;
+}
+
+.mobile-des-image {
+    width: 100%;
+}
+.mobile-img {
+    width: 100%;
+}
+.mobile-img img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+/*=======================================================
+        ============  Our client area css  ============
+=========================================================*/
+
+.our-clients-area{
+    background: #FAF8F8;
+}
+.single-client-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.client-items {
+    height:100px;
+    height:100px;
+    height:100px;
+    height: 10rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right:50px;
+    margin-right:50px;
+    margin-right:50px;
+    margin-right: 5rem;
+}
+.client-items:last-child{
+    margin-right: unset;
+}
+.client-items img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+/*=======================================================
+        ============  Pricing table area css  ============
+=========================================================*/
+.pricing-table-area{
+    background:#F1F1F1;
+}
+.pricing-card {
+    text-align: center;
+    border: 1px solid #A1A1A1;
+}
+.card-title {
+    margin-bottom:5px;
+    margin-bottom:5px;
+    margin-bottom:5px;
+    margin-bottom: .5rem;
+    border-bottom: 1px solid #A1A1A1;
+}
+.card-title h4 {
+    font-size:34px;
+    font-size:34px;
+    font-size:34px;
+    font-size: 3.4rem;
+    color: #5a677b;
+    font-family: 'GothamMedium';
+    font-weight: 600;
+    margin-top:10px;
+    margin-top:10px;
+    margin-top: 1rem;
+}
+.card-title p{
+    color:#999999;
+    letter-spacing: 1px;
+}
+.card-content ul {
+    margin:30px 0;
+    margin:30px 0;
+    margin:30px 0;
+    margin: 3rem 0;
+}
+.card-button {
+    margin-bottom:40px;
+    margin-bottom:40px;
+    margin-bottom:40px;
+    margin-bottom: 4rem;
+}
+.card-button  .btn-sty-g {
+    display: block;
+    max-width: 75%;
+    width: 100%;
+    margin: auto;
+}
+.card-content ul li {
+    font-size:26px;
+    font-size:26px;
+    font-size:26px;
+    font-size: 2.6rem;
+    color: #999999;
+    line-height: 43px;
+}
+.pricing-table-area .gx-5 {
+    --bs-gutter-x:40px;
+    --bs-gutter-x:40px;
+    --bs-gutter-x:40px;
+    --bs-gutter-x: 4rem;
+}
+/*=======================================================
+        ============  Our work area css  ============
+=========================================================*/
+.our-work-area{
+    background: #FBF8F8;
+}
+.single-work {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -webkit-column-gap: 1rem;
+    -moz-column-gap: 1rem;
+    column-gap: 1rem;
+    /* padding-top: 40px; */
+    padding-top:40px;
+    padding-top: 4rem;
+    /* border-top: 1px solid #B7B7B7; */
+    position: relative;
+}
+.single-work:after{
+    position: absolute;
+    content:"";
+    max-width:90%;
+    width:100%;
+    height:1px;
+    background: #B7B7B7;
+    top:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.work-items {
+    width: 100%;
+    height:300px;
+    height:300px;
+    height:300px;
+    height: 30rem;
+    position: relative;
+    margin-bottom:10px;
+    margin-bottom:10px;
+    margin-bottom:10px;
+    margin-bottom: 1rem;
+}
+.work-img{
+    width:100%;
+    height: 100%
+}
+.work-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(240,100,110,0.8);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform:scaleY(0);
+            transform:scaleY(0);
+    -webkit-transition:-webkit-transform .5s;
+    transition:-webkit-transform .5s;
+    transition:transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+}
+.work-items:hover .image-overlay{
+    -webkit-transform:scaleY(1);
+            transform:scaleY(1);
+}
+.overlay-content {
+    border: 2px solid #F9DBDD;
+    box-sizing: border-box;
+    width: 90%;
+    height: 90%;
+    padding:20px;
+    padding:20px;
+    padding:20px;
+    padding:2rem;
+}
+.overlay-content h5 {
+    color: #fff;
+    font-size:23px;
+    font-size:23px;
+    font-size:23px;
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-family: 'Gotham-Bold';
+
+}
+.overlay-content p {
+    font-size:21px;
+    font-size:21px;
+    font-size:21px;
+    font-size: 2.1rem;
+    color: #fff;
+}
+.overlay-content a {
+    margin-top:40px;
+    margin-top:40px;
+    margin-top:40px;
+    margin-top: 4rem;
+    display: inline-block;
+}
+.overlay-content a i {
+    width:60px;
+    width:60px;
+    width:60px;
+    width: 6rem;
+    height:60px;
+    height:60px;
+    height:60px;
+    height: 6rem;
+    background: #fff;
+    text-align: center;
+    line-height:60px;
+    line-height:60px;
+    line-height:60px;
+    line-height: 6rem;
+    border-radius: 50%;
+    color: #1FAB5A;
+    font-size:30px;
+    font-size:30px;
+    font-size:30px;
+    font-size: 3rem;
+    -webkit-transition:.4s;
+    transition: .4s;
+}
+.overlay-content a i:hover{
+    color:#fff;
+    background:#1FAB5A; 
+}
+ /*work carousel*/
+.work-carousel.owl-theme .owl-nav {
+    margin-top: unset;
+    position: absolute;
+    top: -50px;
+    right: 5%;
+}
+.work-carousel.owl-theme .owl-nav span{
+    font-size: 40px;
+    line-height: 0;
+}
+.work-carousel.owl-theme .owl-nav [class*=owl-]{
+    outline: unset;
+}
+.work-carousel.owl-theme .owl-nav [class*=owl-]:hover{
+    color:#F96B61;
+}
+
+/*=======================================================
+        ============  Twitter area css  ============
+=========================================================*/
+.twitter-area{
+    background: url(../images/twitter-bg.jpg) no-repeat scroll 0 0 / cover;
+}
+.twitter-feed{
+    text-align: center;
+}
+.twitter-feed i {
+    font-size:50px;
+    font-size:50px;
+    font-size:50px;
+    font-size: 5rem;
+    color: #fff;
+    margin-bottom:40px;
+    margin-bottom:40px;
+    margin-bottom:40px;
+    margin-bottom: 4rem;
+}
+.twitter-feed ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.twitter-feed ul li {
+    margin:0 20px;
+    margin:0 20px;
+    margin:0 20px;
+    margin: 0 2rem;
+    color: #fff;
+}
+.twitter-feed ul li:last-child {
+    margin-top: 15px;
+}
+.twitter-feed p {
+    color: #fff;
+    max-width: 80%;
+    margin:40px auto;
+    margin:40px auto;
+    margin:40px auto;
+    margin: 4rem auto;
+    margin-bottom:30px;
+    margin-bottom:30px;
+    margin-bottom:30px;
+    margin-bottom: 3rem;
+    font-size:23px;
+    font-size:23px;
+    font-size:23px;
+    font-size: 2.3rem;
+}
+.twitter-feed span {
+    color: #fff;
+}
+/*owl nav*/
+.twitter-feed-carousel.owl-theme .owl-nav {
+    margin-top: unset;
+    position: absolute;
+    top: 43%;
+    width:100%;
+}
+.twitter-feed-carousel.owl-theme .owl-nav .owl-prev{
+    outline: unset;
+    left:0;position: absolute;
+}
+.twitter-feed-carousel.owl-theme .owl-nav .owl-next{
+    outline: unset;
+    right:0;position: absolute;
+}
+.twitter-feed-carousel.owl-theme .owl-nav span{
+    font-size:45px;
+    color:#fff;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: unset;
+}
+/*=======================================================
+        ============  Banner area css  ============
+=========================================================*/
+.Contact-area{
+    background: #333B46;
+}
+.Contact-area .section-title h3,
+.Contact-area .section-title p{
+    color:#fff;    
+    margin:10px auto;    
+    margin:10px auto;    
+    margin:10px auto;    
+    margin: 1rem auto;
+    max-width: 60%;
+    width: 100%;
+}
+.Contact-area .button {
+    text-align: center;
+}
+
+
+/*=======================================================
+        ============  socket area css  ============
+=========================================================*/
+.socket-area {
+    background: #2A3039;
+    padding:30px 0;
+    padding:30px 0;
+    padding:30px 0;
+    padding: 3rem 0;
+}
+.socket {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.social-icon ul li{
+    margin-right:10px;
+    margin-right:10px;
+    margin-right:10px;
+    margin-right: 1rem;
+}
+.social-icon ul li a{
+    color:#fff;
+}
+.social-icon ul li a i {
+    color: #596474;
+    width: 40px;
+    width: 40px;
+    width:50px;
+    width: 5rem;
+    height: 40px;
+    height: 40px;
+    height:50px;
+    height: 5rem;
+    border: 2px solid #596474;
+    text-align: center;
+    line-height: 38px;
+    line-height: 38px;
+    line-height:46px;
+    line-height: 4.6rem;
+    font-size: 25px;
+    font-size: 25px;
+    font-size:25px;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.social-icon ul li a i:hover{
+    color:#fff;
+    border-color:#fff;
+}
+.socket-left ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.socket-right p {
+    color: #fff;
+}
+/*back to-top btn*/
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    bottom:20px;
+    bottom:20px;
+    bottom: 2rem;
+    right: 30px;
+    right:30px;
+    right:30px;
+    right: 3rem;
+    z-index: 30;
+}
+.back-to-top i {
+    /* width: 50px; */
+    /* width: 50px; */
+    width:50px;
+    width: 5rem;
+    /* height: 50px; */
+    /* height: 50px; */
+    height:50px;
+    height: 5rem;
+    /* line-height: 45px; */
+    /* line-height: 45px; */
+    line-height:45px;
+    line-height: 4.5rem;
+    text-align: center;
+    background: #FF4B5A;
+    border-radius: 50%;
+    color: #fff;
+    border: 2px solid #FF4B5A;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.back-to-top i:hover {
+    background-color: #1FAB5A;
+    border-color: #1FAB5A;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
